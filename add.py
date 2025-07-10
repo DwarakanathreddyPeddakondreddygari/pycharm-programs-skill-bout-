@@ -1,0 +1,5 @@
+print("enter numbers:")
+a=list(map(int,input().split()))
+print("reverse",a[::-1])
+print("sum",sum(a))
+print("avg",sum(a)/len(a))
